@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inlämningsuppgift 1</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9272ac0a4d.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="script" href="js/script.js">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <h5><i class="fas fa-address-book"></i> Forum</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" id="nav-link" href="discussion.html">Discussions</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            User Link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="register.html">Register</a>
+                            <a class="dropdown-item" href="login.html">Login</a>
+                            <a class="dropdown-item" href="profile.html">Profile</a>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="container col-md-12" id="registerForm">
+                <form class="needs-validation" validate>
+                    <h1>Register</h1>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom01"><i class="fas fa-user-circle"></i> First name</label>
+                            <input type="text" class="form-control" id="validationCustom01"
+                                placeholder="Enter your first name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom02"><i class="fas fa-user-circle"></i> Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02"
+                                placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom03"><i class="fas fa-city"></i> City</label>
+                            <input type="text" class="form-control" id="validationCustom03"
+                                placeholder="Enter your city" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationCustom04"><i class="fas fa-globe"></i> State</label>
+                            <input type="text" class="form-control" id="validationCustom04"
+                                placeholder="Enter your state" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationCustom05"><i class="fas fa-map-marker-alt"></i> Zip</label>
+                            <input type="number" class="form-control" id="validationCustom05"
+                                placeholder="Enter your zip code" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom06"><i class="fas fa-at"></i> Email</label>
+                            <input type="email" class="form-control" id="validationCustom06"
+                                placeholder="Enter your email" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom07"><i class="fas fa-key"></i> Password</label>
+                            <input type="password" class="form-control" id="validationCustom07"
+                                placeholder="Choose a password" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                        </div>
+                    </div>
+                    <input class="btn btn-primary" id="registerBtn" type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+
+        <footer class="page-footer font-small fixed-bottom">
+            <div class="footer-copyright text-center py-3">© 2019 Copyright: EC-Utbildning
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
